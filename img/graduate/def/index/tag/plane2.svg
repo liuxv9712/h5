@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.389" height="21.077" viewBox="0 0 36.389 21.077">
+  <defs>
+    <style>
+      .cls-1, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #adadad;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6, .cls-7 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-7 {
+        stroke-width: 1.4px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #eaeaea;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        stroke-width: 0.7px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="路径_3362" data-name="路径 3362" class="cls-1" d="M-661.928-3387.6l-32.657,13.323,31.906-9.224,2.972,2.733Z"/>
+    </clipPath>
+  </defs>
+  <g id="飞机2" transform="translate(695.396 3394.654)">
+    <path id="路径_3359" data-name="路径 3359" class="cls-2" d="M-694.585-3374.277l34.878-6.491-2.972-2.733Z"/>
+    <path id="路径_3360" data-name="路径 3360" class="cls-3" d="M-694.7-3374.335l33.725-19.618-3.074,19.232Z"/>
+    <g id="组_2534" data-name="组 2534">
+      <path id="路径_3361" data-name="路径 3361" class="cls-4" d="M-661.928-3387.6l-32.657,13.323,31.906-9.224,2.972,2.733Z"/>
+      <g id="组_2533" data-name="组 2533">
+        <g id="组_2532" data-name="组 2532" class="cls-5">
+          <g id="组_2531" data-name="组 2531">
+            <line id="直线_1962" data-name="直线 1962" class="cls-6" x2="16.208" y2="8.619" transform="translate(-671.812 -3391.241)"/>
+            <line id="直线_1963" data-name="直线 1963" class="cls-6" x2="16.208" y2="8.619" transform="translate(-678.756 -3387.347)"/>
+            <line id="直线_1964" data-name="直线 1964" class="cls-6" x2="16.208" y2="8.619" transform="translate(-685.7 -3383.452)"/>
+            <line id="直线_1965" data-name="直线 1965" class="cls-6" x2="16.208" y2="8.619" transform="translate(-692.644 -3379.558)"/>
+            <line id="直线_1966" data-name="直线 1966" class="cls-6" x2="16.208" y2="8.619" transform="translate(-699.588 -3375.663)"/>
+          </g>
+        </g>
+      </g>
+      <path id="路径_3363" data-name="路径 3363" class="cls-7" d="M-661.928-3387.6l-32.657,13.323,31.906-9.224,2.972,2.733Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.117" height="27.117" viewBox="0 0 27.117 27.117">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdc634;
+        stroke: #e88b2f;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #e88b2f;
+      }
+    </style>
+  </defs>
+  <g id="金币2" transform="translate(635.316 -513.753)">
+    <circle id="椭圆_85" data-name="椭圆 85" class="cls-1" cx="12.558" cy="12.558" r="12.558" transform="translate(-634.316 514.753)"/>
+    <g id="组_609" data-name="组 609">
+      <g id="组_608" data-name="组 608">
+        <path id="路径_627" data-name="路径 627" class="cls-2" d="M-623.1,531.3h-3.616v-1.372h3.616V528.72h-3.616v-1.372h2.986l-4.358-6.88h3.208l1.687,3.338c.687,1.41.928,1.892,1.428,2.893h.093c.538-1,.779-1.539,1.428-2.893l1.669-3.338h3.152l-4.376,6.88h3v1.372h-3.6v1.206h3.6V531.3h-3.6v2.856H-623.1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

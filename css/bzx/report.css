@@ -1,0 +1,54 @@
+.banner {
+	margin: 0.75rem;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner p {
+	color: #FF8800;
+	font-size: 1rem;
+	font-weight: 550;
+	margin: 0.25rem 0;
+}
+
+.card{
+	margin: 0.5rem 0;
+	box-shadow: unset;
+}
+.card-header{
+	border-bottom: unset;
+}
+.card-header .ctitle{
+	font-size: 0.7rem;
+	font-weight: 550;
+}
+.card-header .button{
+	/* height: unset;
+	line-height: unset;
+	padding: 0.15rem .5rem; */
+	font-size: 0.6rem;
+}
+.card .row{
+	margin-left: unset;
+}
+.card .row .col-50{
+	width: 50%;
+	margin-left: unset;
+}
+
+.point-data .col-50{
+	text-align: center;
+	color: #999999;
+}
+.point-data .col-50 h1,.point-data .col-50 p{
+	margin: 0 0;
+}
+.point-data .col-50 h1.warn{
+	color: #ff9900;
+}
+.point-data .col-50 p{
+	color: #999999;
+}
+

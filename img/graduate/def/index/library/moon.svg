@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.801" height="75.425" viewBox="0 0 65.801 75.425">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-miterlimit: 10;
+        stroke-width: 2.8px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-10, .cls-11, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.4px;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 0.7 2.8;
+      }
+
+      .cls-5 {
+        fill: #ffda34;
+      }
+
+      .cls-6 {
+        fill: #ffa436;
+      }
+
+      .cls-7 {
+        fill: rgba(0,0,0,0.2);
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-9 {
+        opacity: 0.2;
+      }
+
+      .cls-10, .cls-11 {
+        stroke: #ffa436;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 0.694 2.776;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="路径_1319" data-name="路径 1319" class="cls-1" d="M811.51,4426.219c.069-.373.147-.741.23-1.108l-.023,0a29.809,29.809,0,1,0,23.616,35.872A29.808,29.808,0,0,1,811.51,4426.219Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="路径_1322" data-name="路径 1322" class="cls-1" d="M813.892,4437.436c.069-.373.148-.742.23-1.109l-.023,0a29.808,29.808,0,1,0,23.616,35.871A29.808,29.808,0,0,1,813.892,4437.436Z"/>
+    </clipPath>
+  </defs>
+  <g id="月亮" transform="translate(-774.999 -4420.016)">
+    <path id="路径_1318" data-name="路径 1318" class="cls-2" d="M811.51,4426.219c.069-.373.147-.741.23-1.108l-.023,0a29.809,29.809,0,1,0,23.616,35.872A29.808,29.808,0,0,1,811.51,4426.219Z"/>
+    <g id="组_740" data-name="组 740">
+      <g id="组_739" data-name="组 739" class="cls-3">
+        <g id="组_738" data-name="组 738">
+          <line id="直线_716" data-name="直线 716" class="cls-4" x1="13.979" y2="75.045" transform="translate(832.86 4424.749)"/>
+          <line id="直线_717" data-name="直线 717" class="cls-4" x1="13.979" y2="75.045" transform="translate(824.861 4423.259)"/>
+          <line id="直线_718" data-name="直线 718" class="cls-4" x1="13.979" y2="75.045" transform="translate(816.863 4421.769)"/>
+          <line id="直线_719" data-name="直线 719" class="cls-4" x1="13.979" y2="75.045" transform="translate(808.864 4420.279)"/>
+          <line id="直线_720" data-name="直线 720" class="cls-4" x1="13.979" y2="75.045" transform="translate(800.866 4418.79)"/>
+          <line id="直线_721" data-name="直线 721" class="cls-4" x1="13.979" y2="75.045" transform="translate(792.867 4417.3)"/>
+          <line id="直线_722" data-name="直线 722" class="cls-4" x1="13.979" y2="75.045" transform="translate(784.869 4415.81)"/>
+          <line id="直线_723" data-name="直线 723" class="cls-4" x1="13.979" y2="75.045" transform="translate(776.871 4414.32)"/>
+          <line id="直线_724" data-name="直线 724" class="cls-4" x1="13.979" y2="75.045" transform="translate(768.872 4412.83)"/>
+          <line id="直线_725" data-name="直线 725" class="cls-4" x1="13.979" y2="75.045" transform="translate(760.874 4411.34)"/>
+          <line id="直线_726" data-name="直线 726" class="cls-4" x1="13.979" y2="75.045" transform="translate(752.875 4409.85)"/>
+        </g>
+      </g>
+    </g>
+    <path id="路径_1320" data-name="路径 1320" class="cls-5" d="M815.292,4423.086c.069-.373.148-.742.23-1.109l-.023,0a29.808,29.808,0,1,0,23.616,35.871A29.808,29.808,0,0,1,815.292,4423.086Z"/>
+    <circle id="椭圆_113" data-name="椭圆 113" class="cls-6" cx="3.005" cy="3.005" r="3.005" transform="translate(797.031 4436.045)"/>
+    <circle id="椭圆_114" data-name="椭圆 114" class="cls-6" cx="5.283" cy="5.283" r="5.283" transform="translate(807.158 4450.28)"/>
+    <circle id="椭圆_115" data-name="椭圆 115" class="cls-6" cx="3.396" cy="3.396" r="3.396" transform="translate(794.658 4464.839)"/>
+    <path id="路径_1321" data-name="路径 1321" class="cls-7" d="M810.816,4476.306a29.809,29.809,0,0,1-14.384-51.549,29.808,29.808,0,1,0,33.45,48.764A29.672,29.672,0,0,1,810.816,4476.306Z"/>
+    <g id="组_766" data-name="组 766">
+      <g id="组_765" data-name="组 765" class="cls-8">
+        <g id="组_764" data-name="组 764" class="cls-9">
+          <g id="组_763" data-name="组 763">
+            <g id="组_742" data-name="组 742">
+              <g id="组_741" data-name="组 741">
+                <line id="直线_727" data-name="直线 727" class="cls-10" x1="0.064" y2="0.344" transform="translate(849.157 4435.965)"/>
+                <line id="直线_728" data-name="直线 728" class="cls-11" x1="13.088" y2="70.264" transform="translate(835.56 4439.038)"/>
+                <line id="直线_729" data-name="直线 729" class="cls-10" x1="0.064" y2="0.344" transform="translate(835.242 4510.667)"/>
+              </g>
+            </g>
+            <g id="组_744" data-name="组 744">
+              <g id="组_743" data-name="组 743">
+                <line id="直线_730" data-name="直线 730" class="cls-10" x1="0.064" y2="0.344" transform="translate(841.158 4434.476)"/>
+                <line id="直线_731" data-name="直线 731" class="cls-11" x1="13.088" y2="70.264" transform="translate(827.562 4437.548)"/>
+                <line id="直线_732" data-name="直线 732" class="cls-10" x1="0.064" y2="0.344" transform="translate(827.244 4509.177)"/>
+              </g>
+            </g>
+            <g id="组_746" data-name="组 746">
+              <g id="组_745" data-name="组 745">
+                <line id="直线_733" data-name="直线 733" class="cls-10" x1="0.064" y2="0.344" transform="translate(833.16 4432.985)"/>
+                <line id="直线_734" data-name="直线 734" class="cls-11" x1="13.088" y2="70.264" transform="translate(819.563 4436.059)"/>
+                <line id="直线_735" data-name="直线 735" class="cls-10" x1="0.064" y2="0.344" transform="translate(819.245 4507.687)"/>
+              </g>
+            </g>
+            <g id="组_748" data-name="组 748">
+              <g id="组_747" data-name="组 747">
+                <line id="直线_736" data-name="直线 736" class="cls-10" x1="0.064" y2="0.344" transform="translate(825.161 4431.496)"/>
+                <line id="直线_737" data-name="直线 737" class="cls-11" x1="13.088" y2="70.264" transform="translate(811.565 4434.568)"/>
+                <line id="直线_738" data-name="直线 738" class="cls-10" x1="0.064" y2="0.344" transform="translate(811.247 4506.197)"/>
+              </g>
+            </g>
+            <g id="组_750" data-name="组 750">
+              <g id="组_749" data-name="组 749">
+                <line id="直线_739" data-name="直线 739" class="cls-10" x1="0.064" y2="0.344" transform="translate(817.163 4430.006)"/>
+                <line id="直线_740" data-name="直线 740" class="cls-11" x1="13.088" y2="70.264" transform="translate(803.566 4433.079)"/>
+                <line id="直线_741" data-name="直线 741" class="cls-10" x1="0.064" y2="0.344" transform="translate(803.248 4504.707)"/>
+              </g>
+            </g>
+            <g id="组_752" data-name="组 752">
+              <g id="组_751" data-name="组 751">
+                <line id="直线_742" data-name="直线 742" class="cls-10" x1="0.064" y2="0.344" transform="translate(809.164 4428.516)"/>
+                <line id="直线_743" data-name="直线 743" class="cls-11" x1="13.088" y2="70.264" transform="translate(795.568 4431.589)"/>
+                <line id="直线_744" data-name="直线 744" class="cls-10" x1="0.064" y2="0.344" transform="translate(795.25 4503.217)"/>
+              </g>
+            </g>
+            <g id="组_754" data-name="组 754">
+              <g id="组_753" data-name="组 753">
+                <line id="直线_745" data-name="直线 745" class="cls-10" x1="0.064" y2="0.344" transform="translate(801.166 4427.026)"/>
+                <line id="直线_746" data-name="直线 746" class="cls-11" x1="13.088" y2="70.265" transform="translate(787.569 4430.099)"/>
+                <line id="直线_747" data-name="直线 747" class="cls-10" x1="0.064" y2="0.344" transform="translate(787.251 4501.728)"/>
+              </g>
+            </g>
+            <g id="组_756" data-name="组 756">
+              <g id="组_755" data-name="组 755">
+                <line id="直线_748" data-name="直线 748" class="cls-10" x1="0.064" y2="0.344" transform="translate(793.167 4425.536)"/>
+                <line id="直线_749" data-name="直线 749" class="cls-11" x1="13.088" y2="70.264" transform="translate(779.571 4428.609)"/>
+                <line id="直线_750" data-name="直线 750" class="cls-10" x1="0.064" y2="0.344" transform="translate(779.253 4500.238)"/>
+              </g>
+            </g>
+            <g id="组_758" data-name="组 758">
+              <g id="组_757" data-name="组 757">
+                <line id="直线_751" data-name="直线 751" class="cls-10" x1="0.064" y2="0.344" transform="translate(785.169 4424.046)"/>
+                <line id="直线_752" data-name="直线 752" class="cls-11" x1="13.088" y2="70.264" transform="translate(771.573 4427.119)"/>
+                <line id="直线_753" data-name="直线 753" class="cls-10" x1="0.064" y2="0.344" transform="translate(771.254 4498.748)"/>
+              </g>
+            </g>
+            <g id="组_760" data-name="组 760">
+              <g id="组_759" data-name="组 759">
+                <line id="直线_754" data-name="直线 754" class="cls-10" x1="0.064" y2="0.344" transform="translate(777.17 4422.557)"/>
+                <line id="直线_755" data-name="直线 755" class="cls-11" x1="13.088" y2="70.264" transform="translate(763.574 4425.629)"/>
+                <line id="直线_756" data-name="直线 756" class="cls-10" x1="0.064" y2="0.344" transform="translate(763.256 4497.258)"/>
+              </g>
+            </g>
+            <g id="组_762" data-name="组 762">
+              <g id="组_761" data-name="组 761">
+                <line id="直线_757" data-name="直线 757" class="cls-10" x1="0.064" y2="0.344" transform="translate(769.172 4421.066)"/>
+                <line id="直线_758" data-name="直线 758" class="cls-11" x1="13.088" y2="70.265" transform="translate(755.576 4424.139)"/>
+                <line id="直线_759" data-name="直线 759" class="cls-10" x1="0.064" y2="0.344" transform="translate(755.257 4495.768)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

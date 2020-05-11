@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	height: 100%;
+	font-family: "microsoft yahei";
+}
+
+.swiper-container {
+	/* 3定义Swiper大小 */
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: scroll;
+	touch-action: pan-y;
+	-webkit-overflow-scrolling: touch;
+}
+
+.content-block {
+	margin: 1.75rem;
+	color: #6d6d72;
+}
+
+.graduate-main {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 1.75rem 1.75rem 2.75rem 3rem;
+}
+
+.all {
+	/* background: url(../../../img/graduate/def/index/bg.svg); */
+	background-size: cover !important;
+}
+
+.backgroundImg {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.swiper-slide {
+	background: no-repeat left top;
+	background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet {
+	width: 6px;
+	height: 6px;
+	background: #fff;
+	opacity: .4;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: 1;
+}
+
+@-webkit-keyframes tipmove {
+	0% {
+		bottom: 10px;
+		opacity: 0
+	}
+
+	50% {
+		bottom: 15px;
+		opacity: 1
+	}
+
+	100% {
+		bottom: 20px;
+		opacity: 0
+	}
+}
+
+.nav {
+	background: url(../../../img/graduate/def/index/web-swipe-tip.svg) no-repeat;
+	width: 40%;
+	height: auto;
+	top: 95%;
+	left: 45%;
+	position: absolute;
+	z-index: 999;
+	-webkit-animation: tipmove 1.5s infinite ease-in-out;
+}
+
+@keyframes myFlash {
+
+	0%,
+	100%,
+	50% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.graduate-head{
+	text-align: center;
+}
+.head-title {
+	position: relative;
+	overflow: hidden;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-align: center;
+	color: #4510DC;
+}
+
+
+.main-title {
+	text-align: center;
+	margin: 0 auto;
+	width: 13.63rem;
+	height: 3.35rem;
+}
+
+
+.main-title-text {
+	color: #FFDA34;
+	font-size: 1.5rem;
+	line-height: 3.35rem;
+	height: 3.35rem;
+}
+
+
+.main-content {
+	padding: 1rem 0 0 1.4rem;
+	/* color: #282828;
+	font-size: 0.875rem;
+	line-height: 2rem;
+	font-weight: 500; */
+}
+
+.graduate-footer {
+	width: 18rem;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0rem;
+	margin: 0.5rem auto;
+	text-align: center;
+}
+
+.i-footer {
+	width: 100%;
+}
+
+/* 装饰开始 */
+.center-left {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+	animation: myFlash 3s infinite;
+}
+
+.center-right {
+	position: absolute;
+	top: 45%;
+	right: 5%;
+	animation: myFlash 3s infinite;
+}
+
+.top-left {
+	position: absolute;
+	top: 20%;
+	left: 3%;
+	z-index: -1;
+	animation: myFlash 4s infinite;
+}
+
+.top-right {
+	position: absolute;
+	top: 30%;
+	right: 3%;
+	animation: myFlash 5s infinite;
+}
+
+.top-right2 {
+	position: absolute;
+	top: 10%;
+	right: 3%;
+	animation: myFlash 5s infinite;
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 3%;
+	left: 3%;
+	animation: myFlash 3s infinite;
+}
+
+.bottom-right {
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	animation: myFlash 6s infinite;
+}
+
+.bottom-center1 {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	animation: myFlash 2s infinite;
+}
+
+.bottom-center2 {
+	position: absolute;
+	top: 59%;
+	right: 40%;
+	animation: myFlash 4s infinite;
+}
+
+.bottom {
+	position: absolute;
+	top: 68%;
+	left: 2%;
+	animation: myFlash 4s infinite;
+}
+
+.top {
+	width: 18rem;
+	animation: myFlash 4s infinite;
+}
+
+/* 装饰结束 */
+/* card */
+/* best div-img-span */
+.best {
+	position: relative;
+	width: 12.5rem;
+}
+
+.best-img {
+	width: 55%;
+	position: absolute;
+	top: 50%;
+	left: 86%;
+	transform: translate(-50%, -50%);
+}
+
+.best-text {
+	position: absolute;
+	top: 50%;
+	left: 86%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	font-weight: 600;
+	color: #FFFFFF;
+	font-size: 0.875rem;
+}
+
+/* best 结束 */
+
+/* tag开始 */
+.tagModel {
+	background: url(../../../img/graduate/def/index/tag/grid.svg) no-repeat;
+	background-size: cover;
+}
+
+.tag-top {
+	background: url(../../../img/graduate/def/index/tag/shine.svg) no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 7.2rem;
+	text-align: center;
+}
+
+.tag-content {
+	padding: 3.5rem 0;
+	text-align: center;
+	height: 22rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	width: 88%;
+	margin: 0 auto;
+	background: url(../../../img/graduate/def/index/tag/bg.svg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.tag {
+	position: relative;
+	flex: 0 0 26.8%;
+	width: 5.08rem;
+}
+
+.tag-img {
+	display: block;
+	width: 100%;
+}
+
+.tag-text {
+	position: absolute;
+	width: 100%;
+	top: 2.7rem;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 0.7rem;
+}
+
+.tag-title {
+	position: absolute;
+	top: 6rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* tag结束 */

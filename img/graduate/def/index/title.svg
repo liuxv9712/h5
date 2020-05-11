@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none meet" width="218.05" height="53.55" viewBox="0 0 218.05 53.55">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 2.8px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 1.4 5.6;
+      }
+
+      .cls-5 {
+        fill: #4510dc;
+      }
+
+      .cls-6 {
+        stroke: #bdabff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="矩形_21207" data-name="矩形 21207" class="cls-1" width="213.5" height="45.5" rx="11.375" transform="translate(-642.875 999.593)"/>
+    </clipPath>
+  </defs>
+  <g id="标题框" transform="translate(831.186 -149.334)">
+    <rect id="矩形_21184" data-name="矩形 21184" class="cls-2" width="213.5" height="45.5" rx="11.375" transform="translate(-828.036 155.984)"/>
+    <g id="组_615" data-name="组 615" transform="translate(-185.553 -843.486)">
+      <g id="组_614" data-name="组 614" class="cls-3">
+        <g id="组_613" data-name="组 613">
+          <g id="组_611" data-name="组 611">
+            <line id="直线_498" data-name="直线 498" class="cls-4" y2="66.582" transform="translate(-642.175 986.643)"/>
+            <line id="直线_499" data-name="直线 499" class="cls-4" y2="66.582" transform="translate(-628.292 986.643)"/>
+            <line id="直线_500" data-name="直线 500" class="cls-4" y2="66.582" transform="translate(-614.408 986.643)"/>
+            <line id="直线_501" data-name="直线 501" class="cls-4" y2="66.582" transform="translate(-600.525 986.643)"/>
+            <line id="直线_502" data-name="直线 502" class="cls-4" y2="66.582" transform="translate(-586.642 986.643)"/>
+            <line id="直线_503" data-name="直线 503" class="cls-4" y2="66.582" transform="translate(-572.758 986.643)"/>
+            <line id="直线_504" data-name="直线 504" class="cls-4" y2="66.582" transform="translate(-558.875 986.643)"/>
+            <line id="直线_505" data-name="直线 505" class="cls-4" y2="66.582" transform="translate(-544.992 986.643)"/>
+            <line id="直线_506" data-name="直线 506" class="cls-4" y2="66.582" transform="translate(-531.108 986.643)"/>
+            <line id="直线_507" data-name="直线 507" class="cls-4" y2="66.582" transform="translate(-517.225 986.643)"/>
+            <line id="直线_508" data-name="直线 508" class="cls-4" y2="66.582" transform="translate(-503.342 986.643)"/>
+            <line id="直线_509" data-name="直线 509" class="cls-4" y2="66.582" transform="translate(-489.458 986.643)"/>
+            <line id="直线_510" data-name="直线 510" class="cls-4" y2="66.582" transform="translate(-475.575 986.643)"/>
+            <line id="直线_511" data-name="直线 511" class="cls-4" y2="66.582" transform="translate(-461.692 986.643)"/>
+            <line id="直线_512" data-name="直线 512" class="cls-4" y2="66.582" transform="translate(-447.808 986.643)"/>
+            <line id="直线_513" data-name="直线 513" class="cls-4" y2="66.582" transform="translate(-433.925 986.643)"/>
+          </g>
+          <g id="组_612" data-name="组 612">
+            <line id="直线_514" data-name="直线 514" class="cls-4" y2="66.582" transform="translate(-635.175 987.962)"/>
+            <line id="直线_515" data-name="直线 515" class="cls-4" y2="66.582" transform="translate(-621.292 987.962)"/>
+            <line id="直线_516" data-name="直线 516" class="cls-4" y2="66.582" transform="translate(-607.408 987.962)"/>
+            <line id="直线_517" data-name="直线 517" class="cls-4" y2="66.582" transform="translate(-593.525 987.962)"/>
+            <line id="直线_518" data-name="直线 518" class="cls-4" y2="66.582" transform="translate(-579.642 987.962)"/>
+            <line id="直线_519" data-name="直线 519" class="cls-4" y2="66.582" transform="translate(-565.758 987.962)"/>
+            <line id="直线_520" data-name="直线 520" class="cls-4" y2="66.582" transform="translate(-551.875 987.962)"/>
+            <line id="直线_521" data-name="直线 521" class="cls-4" y2="66.582" transform="translate(-537.992 987.962)"/>
+            <line id="直线_522" data-name="直线 522" class="cls-4" y2="66.582" transform="translate(-524.108 987.962)"/>
+            <line id="直线_523" data-name="直线 523" class="cls-4" y2="66.582" transform="translate(-510.225 987.962)"/>
+            <line id="直线_524" data-name="直线 524" class="cls-4" y2="66.582" transform="translate(-496.342 987.962)"/>
+            <line id="直线_525" data-name="直线 525" class="cls-4" y2="66.582" transform="translate(-482.458 987.962)"/>
+            <line id="直线_526" data-name="直线 526" class="cls-4" y2="66.582" transform="translate(-468.575 987.962)"/>
+            <line id="直线_527" data-name="直线 527" class="cls-4" y2="66.582" transform="translate(-454.692 987.962)"/>
+            <line id="直线_528" data-name="直线 528" class="cls-4" y2="66.582" transform="translate(-440.808 987.962)"/>
+            <line id="直线_529" data-name="直线 529" class="cls-4" y2="66.582" transform="translate(-426.925 987.962)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="矩形_21186" data-name="矩形 21186" class="cls-5" width="213.5" height="45.5" rx="11.375" transform="translate(-829.786 150.734)"/>
+    <g id="组_403" data-name="组 403">
+      <path id="路径_286" data-name="路径 286" class="cls-6" d="M-820,159.267a19.177,19.177,0,0,1,12.966-5.033"/>
+      <path id="路径_287" data-name="路径 287" class="cls-6" d="M-826.286,173.484a19.139,19.139,0,0,1,1.621-7.73"/>
+      <line id="直线_330" data-name="直线 330" class="cls-6" x2="11.818" transform="translate(-800.386 154.234)"/>
+    </g>
+    <g id="组_411" data-name="组 411">
+      <g id="组_409" data-name="组 409">
+        <circle id="椭圆_31" data-name="椭圆 31" class="cls-2" cx="4.2" cy="4.2" r="4.2" transform="translate(-818.586 169.284)"/>
+        <line id="直线_353" data-name="直线 353" class="cls-7" x2="3.5" transform="translate(-816.136 173.484)"/>
+      </g>
+      <g id="组_410" data-name="组 410">
+        <circle id="椭圆_32" data-name="椭圆 32" class="cls-2" cx="4.2" cy="4.2" r="4.2" transform="translate(-635.886 169.284)"/>
+        <line id="直线_354" data-name="直线 354" class="cls-7" x2="3.5" transform="translate(-633.436 173.484)"/>
+      </g>
+    </g>
+  </g>
+</svg>

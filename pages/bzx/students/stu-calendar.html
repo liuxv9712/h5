@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>疑似不在校</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<link rel="stylesheet" href="../../../js/light7/css/light7.min.css">
+		<link rel="stylesheet" href="../../../css/iconfont/iconfont.css" />
+		<link rel="stylesheet" href="../../../css/cdu.cust.css" />
+		<link rel="stylesheet" href="../../../js/cdu/components/css/cdu.components.css" />
+		<link rel="stylesheet" href="../../../css/bzx/stu-calendar.css" />
+	</head>
+	<body>
+		<div class="page-group">
+			<div class="page">
+				<!-- 你的html代码 -->
+				<div class="content">
+					<div class="list-block media-list stu">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" class="item-link item-content btn-stu-detail">
+									<div class="item-media">
+										<img src="../../../img/def-head.png" />
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+											<div class="item-title stu-xm"></div>
+											<div class="item-after stu-xh"></div>
+										</div>
+										<div class="item-subtitle stu-bjmc"></div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<!-- 日历 -->
+					<div class="content-block" style="margin: 0 0;background: #FFFFFF;padding: 0 0.75rem 0.25rem 0.75rem;">
+						<div class="cust-calendar"></div>
+						<div class="calendar-remark">
+							<p><span style="color: #ed4014;">&bull;</span>&nbsp;&nbsp;红色实心圆点表示存有异常</p>
+							<p><span style="color: #19be6b;">&bull;</span>&nbsp;&nbsp;绿色实心圆点表示正常</p>
+							<p><span style="color: rgb(92, 173, 255,0.39);">&bull;</span>&nbsp;&nbsp; 绿色背景表示当日风险已处理</p>
+						</div>
+					</div>
+
+					<!-- 数据条目 -->
+					<div class="list-block act-data">
+						<ul>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_7.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">打卡定位</div>
+									<div class="item-after dk"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_1.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">一卡通</div>
+									<div class="item-after ykt"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_2.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">上网</div>
+									<div class="item-after sw"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_3.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">图书</div>
+									<div class="item-after tx"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_4.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">门禁</div>
+									<div class="item-after mj"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_0.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">人脸识别</div>
+									<div class="item-after rlsb"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_5.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">上课</div>
+									<div class="item-after sk"></div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_6.png" />
+								</div>
+								<div class="item-inner">
+									<div class="item-title">跑操</div>
+									<div class="item-after pc"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+
+					<!-- 处理操作 -->
+					<div class="list-block handler" style="margin: 0.75rem 0rem;">
+						<ul>
+							<li class="item-content item-link btn-feedback">
+								<div class="item-media">
+									<img src="../../../img/icon_jk_proc.png" style="width: 1.25rem;" />
+								</div>
+
+								<div class="item-inner">
+									<div class="item-title">反馈</div>
+									<div class="item-after fankui"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<!--反馈 -->
+					<div class="feedback">
+						<input name="reason" type="hidden" />
+						<div class="content-block-title">可连续点击选择日期进行反馈</div>
+						<div class="list-block">
+							<ul>
+								<li class="item-content item-link">
+									<div class="item-inner">
+										<div class="item-title">日期</div>
+										<div class="item-after data-scope">点击日历选择</div>
+									</div>
+								</li>
+								<li class="item-content item-link reason-actions">
+									<div class="item-inner">
+										<div class="item-title">反馈原因</div>
+										<div class="item-after">请选择</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="content-block">
+							<a href="#" class="button button-big button-fill btn-f-submit">立即反馈</a>
+							<a href="#" class="button button-big button-fill button-light btn-f-cancel" style="margin-top: 0.75rem;">暂不反馈</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="../../../js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../../../js/light7/js/light7.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/cdu/components/js/calendar.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/common.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/controller/bzx/students/stu-calendar.js" charset="UTF-8"></script>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85.019" height="68.054" viewBox="0 0 85.019 68.054">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7b8bc9;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6 {
+        stroke: #7a3b0d;
+        stroke-width: 2.8px;
+      }
+
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #e9f9c9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #676594;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #46467c;
+      }
+    </style>
+  </defs>
+  <g id="钱包" transform="translate(840.091 -647.829)">
+    <rect id="矩形_21199" data-name="矩形 21199" class="cls-1" width="64.87" height="43.337" rx="12.109" transform="translate(-775.771 713.037) rotate(-164.805)"/>
+    <rect id="矩形_21200" data-name="矩形 21200" class="cls-2" width="64.87" height="43.337" rx="5.652" transform="translate(-773.552 713.082) rotate(-164.805)"/>
+    <rect id="矩形_21201" data-name="矩形 21201" class="cls-2" width="64.87" height="43.337" rx="5.652" transform="translate(-774.011 712.614) rotate(-160.878)"/>
+    <rect id="矩形_21202" data-name="矩形 21202" class="cls-2" width="64.87" height="43.337" rx="5.652" transform="translate(-771.05 711.806) rotate(-160.878)"/>
+    <rect id="矩形_21203" data-name="矩形 21203" class="cls-1" width="64.87" height="43.337" rx="12.109" transform="translate(-771.615 714.165) rotate(-164.805)"/>
+    <path id="路径_626" data-name="路径 626" class="cls-3" d="M-830.224,682.46l-1.411,5.2a9.314,9.314,0,0,0,6.547,11.429l44.627,12.121a9.314,9.314,0,0,0,11.429-6.547l1.411-5.2a9.314,9.314,0,0,1-11.429,6.547l-44.627-12.121A9.313,9.313,0,0,1-830.224,682.46Z"/>
+    <rect id="矩形_21204" data-name="矩形 21204" class="cls-4" width="64.87" height="43.337" rx="12.109" transform="translate(-771.615 714.165) rotate(-164.805)"/>
+    <path id="矩形_21205" data-name="矩形 21205" class="cls-5" d="M5.627,0H25.033a0,0,0,0,1,0,0V12.92a0,0,0,0,1,0,0H5.627A5.627,5.627,0,0,1,0,7.294V5.627A5.627,5.627,0,0,1,5.627,0Z" transform="translate(-810.996 688.686) rotate(-164.805)"/>
+    <circle id="椭圆_84" data-name="椭圆 84" class="cls-6" cx="2.423" cy="2.423" r="2.423" transform="translate(-817.699 678.407)"/>
+  </g>
+</svg>

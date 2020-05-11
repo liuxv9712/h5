@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="239.75" height="67.596" viewBox="0 0 239.75 67.596">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-11, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-11, .cls-3, .cls-5, .cls-6, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 0.35px;
+      }
+
+      .cls-11, .cls-2, .cls-9 {
+        font-size: 27.74px;
+        font-family: HYe0gj, 汉仪超粗圆简;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-3 {
+        fill: #4510dc;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-8 {
+        stroke-width: 2.8px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 1.4 5.6;
+      }
+
+      .cls-6, .cls-7, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        stroke-linejoin: round;
+      }
+
+      .cls-11, .cls-7, .cls-9 {
+        stroke-width: 1.4px;
+      }
+
+      .cls-11, .cls-8 {
+        fill: #ffda34;
+      }
+
+      .cls-10 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="矩形_47413" data-name="矩形 47413" class="cls-1" width="235.024" height="50.087" rx="11.375" transform="translate(-733.731 -3451.486)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <text id="专属标签" class="cls-2" transform="translate(-700.203 -3443.469)"><tspan x="17.099" y="22">专属标签</tspan></text>
+    </clipPath>
+  </defs>
+  <g id="标题框" transform="translate(737.057 3458.666)">
+    <g id="组_2512" data-name="组 2512">
+      <rect id="矩形_47412" data-name="矩形 47412" class="cls-3" width="235.024" height="50.087" rx="11.375" transform="translate(-733.731 -3451.486)"/>
+      <g id="组_2511" data-name="组 2511">
+        <g id="组_2510" data-name="组 2510" class="cls-4">
+          <g id="组_2509" data-name="组 2509">
+            <g id="组_2507" data-name="组 2507">
+              <line id="直线_1911" data-name="直线 1911" class="cls-5" y2="73.294" transform="translate(-732.96 -3465.742)"/>
+              <line id="直线_1912" data-name="直线 1912" class="cls-5" y2="73.294" transform="translate(-694.753 -3465.742)"/>
+              <line id="直线_1913" data-name="直线 1913" class="cls-5" y2="73.294" transform="translate(-656.546 -3465.742)"/>
+              <line id="直线_1914" data-name="直线 1914" class="cls-5" y2="73.294" transform="translate(-618.338 -3465.742)"/>
+              <line id="直线_1915" data-name="直线 1915" class="cls-5" y2="73.294" transform="translate(-580.131 -3465.742)"/>
+              <line id="直线_1916" data-name="直线 1916" class="cls-5" y2="73.294" transform="translate(-541.923 -3465.742)"/>
+              <line id="直线_1917" data-name="直线 1917" class="cls-5" y2="73.294" transform="translate(-503.716 -3465.742)"/>
+            </g>
+            <g id="组_2508" data-name="组 2508">
+              <line id="直线_1918" data-name="直线 1918" class="cls-5" y2="73.294" transform="translate(-725.255 -3464.29)"/>
+              <line id="直线_1919" data-name="直线 1919" class="cls-5" y2="73.294" transform="translate(-687.047 -3464.29)"/>
+              <line id="直线_1920" data-name="直线 1920" class="cls-5" y2="73.294" transform="translate(-648.84 -3464.29)"/>
+              <line id="直线_1921" data-name="直线 1921" class="cls-5" y2="73.294" transform="translate(-610.632 -3464.29)"/>
+              <line id="直线_1922" data-name="直线 1922" class="cls-5" y2="73.294" transform="translate(-572.425 -3464.29)"/>
+              <line id="直线_1923" data-name="直线 1923" class="cls-5" y2="73.294" transform="translate(-534.218 -3464.29)"/>
+              <line id="直线_1924" data-name="直线 1924" class="cls-5" y2="73.294" transform="translate(-496.01 -3464.29)"/>
+            </g>
+          </g>
+        </g>
+        <rect id="矩形_47414" data-name="矩形 47414" class="cls-1" width="235.024" height="50.087" rx="11.375" transform="translate(-733.731 -3451.486)"/>
+      </g>
+    </g>
+    <rect id="矩形_47415" data-name="矩形 47415" class="cls-6" width="235.024" height="50.087" rx="11.375" transform="translate(-735.657 -3457.266)"/>
+    <g id="组_2513" data-name="组 2513">
+      <path id="路径_3352" data-name="路径 3352" class="cls-7" d="M-504.487-3428.839v5.972a12.521,12.521,0,0,1-12.521,12.522h-9.825"/>
+      <line id="直线_1925" data-name="直线 1925" class="cls-7" y2="3.082" transform="translate(-504.487 -3438.085)"/>
+      <line id="直线_1926" data-name="直线 1926" class="cls-7" x1="9.247" transform="translate(-548.409 -3410.345)"/>
+    </g>
+    <g id="组_2515" data-name="组 2515">
+      <g id="组_2514" data-name="组 2514">
+        <circle id="椭圆_708" data-name="椭圆 708" class="cls-8" cx="4.623" cy="4.623" r="4.623" transform="translate(-520.861 -3436.845)"/>
+      </g>
+    </g>
+    <g id="组_2516" data-name="组 2516">
+      <path id="路径_3353" data-name="路径 3353" class="cls-7" d="M-730.263-3435v-5.972a12.521,12.521,0,0,1,12.521-12.522h9.055"/>
+      <line id="直线_1927" data-name="直线 1927" class="cls-7" y2="3.082" transform="translate(-730.263 -3425.756)"/>
+      <line id="直线_1928" data-name="直线 1928" class="cls-7" x2="9.247" transform="translate(-699.441 -3453.497)"/>
+    </g>
+    <g id="组_2518" data-name="组 2518">
+      <g id="组_2517" data-name="组 2517">
+        <circle id="椭圆_709" data-name="椭圆 709" class="cls-8" cx="4.623" cy="4.623" r="4.623" transform="translate(-723.328 -3436.845)"/>
+      </g>
+    </g>
+    <text id="专属标签-2" data-name="专属标签" class="cls-9" transform="translate(-700.203 -3443.469)"><tspan x="17.099" y="22">专属标签</tspan></text>
+    <g id="组_2524" data-name="组 2524">
+      <g id="组_2523" data-name="组 2523" class="cls-10">
+        <g id="组_2522" data-name="组 2522">
+          <g id="组_2521" data-name="组 2521">
+            <g id="组_2519" data-name="组 2519">
+              <line id="直线_1929" data-name="直线 1929" class="cls-5" y2="73.294" transform="translate(-733.346 -3464.586)"/>
+              <line id="直线_1930" data-name="直线 1930" class="cls-5" y2="73.294" transform="translate(-712.505 -3464.586)"/>
+              <line id="直线_1931" data-name="直线 1931" class="cls-5" y2="73.294" transform="translate(-691.665 -3464.586)"/>
+              <line id="直线_1932" data-name="直线 1932" class="cls-5" y2="73.294" transform="translate(-670.824 -3464.586)"/>
+              <line id="直线_1933" data-name="直线 1933" class="cls-5" y2="73.294" transform="translate(-649.984 -3464.586)"/>
+              <line id="直线_1934" data-name="直线 1934" class="cls-5" y2="73.294" transform="translate(-629.144 -3464.586)"/>
+              <line id="直线_1935" data-name="直线 1935" class="cls-5" y2="73.294" transform="translate(-608.303 -3464.586)"/>
+              <line id="直线_1936" data-name="直线 1936" class="cls-5" y2="73.294" transform="translate(-587.463 -3464.586)"/>
+              <line id="直线_1937" data-name="直线 1937" class="cls-5" y2="73.294" transform="translate(-566.622 -3464.586)"/>
+              <line id="直线_1938" data-name="直线 1938" class="cls-5" y2="73.294" transform="translate(-545.782 -3464.586)"/>
+              <line id="直线_1939" data-name="直线 1939" class="cls-5" y2="73.294" transform="translate(-524.942 -3464.586)"/>
+              <line id="直线_1940" data-name="直线 1940" class="cls-5" y2="73.294" transform="translate(-504.101 -3464.586)"/>
+            </g>
+            <g id="组_2520" data-name="组 2520">
+              <line id="直线_1941" data-name="直线 1941" class="cls-5" y2="73.294" transform="translate(-729.493 -3463.135)"/>
+              <line id="直线_1942" data-name="直线 1942" class="cls-5" y2="73.294" transform="translate(-708.652 -3463.135)"/>
+              <line id="直线_1943" data-name="直线 1943" class="cls-5" y2="73.294" transform="translate(-687.812 -3463.135)"/>
+              <line id="直线_1944" data-name="直线 1944" class="cls-5" y2="73.294" transform="translate(-666.972 -3463.135)"/>
+              <line id="直线_1945" data-name="直线 1945" class="cls-5" y2="73.294" transform="translate(-646.131 -3463.135)"/>
+              <line id="直线_1946" data-name="直线 1946" class="cls-5" y2="73.294" transform="translate(-625.291 -3463.135)"/>
+              <line id="直线_1947" data-name="直线 1947" class="cls-5" y2="73.294" transform="translate(-604.45 -3463.135)"/>
+              <line id="直线_1948" data-name="直线 1948" class="cls-5" y2="73.294" transform="translate(-583.61 -3463.135)"/>
+              <line id="直线_1949" data-name="直线 1949" class="cls-5" y2="73.294" transform="translate(-562.77 -3463.135)"/>
+              <line id="直线_1950" data-name="直线 1950" class="cls-5" y2="73.294" transform="translate(-541.929 -3463.135)"/>
+              <line id="直线_1951" data-name="直线 1951" class="cls-5" y2="73.294" transform="translate(-521.089 -3463.135)"/>
+              <line id="直线_1952" data-name="直线 1952" class="cls-5" y2="73.294" transform="translate(-500.248 -3463.135)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="专属标签-3" data-name="专属标签" class="cls-11" transform="translate(-701.744 -3446.551)"><tspan x="17.099" y="22">专属标签</tspan></text>
+  </g>
+</svg>

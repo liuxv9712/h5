@@ -1,0 +1,272 @@
+/* 主页背景 */
+.page{
+	/* background: #FFFFFF; */
+}
+
+/* 侧栏遮罩 */
+.panel-overlay{
+	background: rgba(0,0,0,.4);
+	opacity: 1;
+}
+
+/* 弹窗顶部边框 */
+.picker-modal .toolbar{
+	border-top: 1px solid #dcdee2;
+}
+
+/* 底部按钮 */
+.bar-tab .tab-item.active, .bar-tab .tab-item:active{
+	color: #333333;
+	font-weight: bold;
+}
+
+/* 按钮大小：中等 */
+.button.button-middle{height: 1.8rem;font-size:.75rem;line-height:1.8rem;}
+.button.button-fill.button-middle{line-height:1.8rem}
+
+/* 自定义card */
+.shadom{
+	border-radius: 6px;
+	box-shadow: 0 1px 6px rgba(0,0,0,.2);
+	margin: .75rem;
+}
+.card.shadom .card-header{
+	display: block;
+	min-height: auto;
+	font-size: 0.8rem;
+	color: #333333;
+	font-weight: 550;
+	border-bottom: 0px;
+}
+
+.card.shadom .list-block,.card.shadom .list-block .item-after{
+	font-size: 0.75rem;
+	color: #333333;
+	font-weight: 550;
+}
+.card.shadom .list-block .item-content{
+	padding-left: 0rem !important;
+	min-height: unset !important;
+}
+
+.card.shadom .list-block .item-inner{
+	padding-right: 0rem !important;
+	min-height: unset !important; 
+	padding-top: 0rem !important;
+	padding-bottom: 0rem !important;
+}
+.card.shadom .list-block .item-title.label{
+	margin: 0 0 !important;
+}
+.card.shadom .list-block input[type=text]{
+	height: unset !important; 
+}
+
+/* 自定义actions */
+.actions-modal-button{
+	color: #999999;
+	font-size: 0.7rem;
+}
+
+/* 重新picker */
+.picker-modal .bar{
+	border-top: 1px solid #dcdee2;
+	border-bottom: 1px solid #dcdee2;
+}
+.picker-items{
+	font-size: 0.7rem;
+}
+
+/** 输入框 placeholder */
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #999;
+  font-size: 0.7rem;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #999;
+  font-size: 0.7rem;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #999;
+  font-size: 0.7rem;
+}  
+
+/* popup */
+.popup.bottom{
+	top: unset;
+	bottom: 0;
+	min-height: 10rem;
+	height: auto;
+}
+
+/** buttons-tab 增加固定顶部样式 */
+.buttons-tab.fixed-tab{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	top:0;
+}
+.buttons-tab.fixed-tab + .content-block{
+	margin-top: 2.75rem;
+}
+
+
+/*************************************** 自定义 *********************************/
+
+/** 分隔线 */
+.divide-line {
+	padding: 2rem 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0rem 2rem;
+    color: #bbbec4;
+}
+
+.divide-line .line-left, .divide-line .line-right {
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.divide-line .info {
+    margin: 0 10px;
+    font-size: 0.6rem;
+}
+
+.tags ul{
+	list-style: none;
+	display: flex;
+	margin: 0.25rem 0;
+	padding: 0 0;
+}
+.tags ul li{
+	background: #e8eaec;
+	padding: 0.05rem 0.25rem;
+	border-radius: 0.5rem;
+	font-size: 0.5rem;
+	color: #333333;
+	transform: scale(0.58);
+	transform: scale(0.85);
+}
+.tags ul li.active{
+	background: #2d8cf0;
+	color: #FFFFFF;
+}
+
+/* 首页快捷入口 */
+.q-entry{
+	margin: 0.75rem;position: relative;
+}
+.q-entry .q-item{
+	min-height: 1rem;
+	background: #FFFFFF;
+	border-radius: 6px;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+.q-entry .q-item .q-icon{
+	margin-right: 0.25rem;
+	text-align: center;
+	line-height: 2rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 2rem;
+}
+.q-entry .q-item .q-text{
+	color: #333333;
+	font-size: 0.7rem;
+}
+.q-entry .q-item .q-text p{
+	margin: 0 0;
+}
+.q-entry .q-item .q-text .q-tip{
+	color: #999999;
+}
+
+/** 首页3入口 */
+.warn-1-3{
+	position: relative;
+}
+.warn-1-3 .warn-item{
+	background: #FFFFFF;
+	width:100%;
+	border-radius: 3px;
+	box-shadow: 0 1px 6px rgba(0,0,0,.2);
+	padding: 0.25rem 0.5rem;
+	font-size: 0.6rem;
+	color: #5cadff;
+}
+.warn-item p{
+	margin: 0;
+}
+.warn-item p.wtitle{
+	font-size: 0.6rem;
+	color: #999999;
+}
+.warn-item p.desc{
+	font-size: 0.85rem;
+	font-weight: 550;
+}
+
+/* 统计 */
+.statistics{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0;
+}
+.statistics li{
+	text-align: center;
+}
+.statistics p{
+	margin: 0 0;
+}
+.statistics .num{
+	font-size: 1rem;
+	color: #333333;
+	font-weight: bold;
+}
+.statistics .text{
+	color: #999999;
+	font-size: 0.6rem;
+	margin: 0.25rem 0 0 0;
+	transform: scale(0.9);
+}
+
+/** 最近7天风险 */
+.week-danger{}
+.week-danger ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.week-danger ul li{
+	width: 25%;
+	text-align: center;
+}
+.fixed-bottom{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	margin: 0;
+	padding: 0.75rem;
+	background: #FFFFFF;
+}

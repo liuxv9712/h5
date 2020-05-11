@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>疑似不在校</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<link rel="stylesheet" href="../../../js/light7/css/light7.css">
+		<link rel="stylesheet" href="../../../css/iconfont/iconfont.css" />
+		<link rel="stylesheet" href="../../../css/cdu.cust.css" />
+		<link rel="stylesheet" href="../../../css/bzx/report.css" />
+	</head>
+	<body>
+		<div class="page-group">
+			<div class="page">
+				<nav class="bar bar-tab">
+					<a class="tab-item external" href="../home/home.html">
+						<span class="icon iconfont icon-shouye"></span>
+						<span class="tab-label">首页</span>
+					</a>
+					<a class="tab-item external active" href="safety.html">
+						<span class="icon iconfont icon-paihangbang"></span>
+						<span class="tab-label">安全报告</span>
+					</a>
+					<a class="tab-item external" href="../notice/notices.html">
+						<span class="icon iconfont icon-pinglun"></span>
+						<span class="tab-label">风险处理</span>
+						<span class="badge remind" style="display: none;"></span>
+					</a>
+				</nav>
+				<!-- 你的html代码 -->
+				<div class="content">
+					<div class="content-block banner">
+						<div>
+							<p>关注在校记录</p>
+							<p>保障学生安全</p>
+						</div>
+						<img src="../../../img/bg-data-2.svg" style="width: 8.5rem;" />
+					</div>
+					<div class="content-block" style="margin: 0;text-align: right;">
+						<a href="javascript:void(0);" style="position:relative;background: #FF8800;color: #FFFFFF;font-size: 0.6rem; padding: 0.25rem 0.5rem;border-radius: 1rem;">
+							<input name="pick-date" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;opacity: 0;"  />
+							数据更新至：<span class="sync-date"></span>
+							<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0;" -->
+						</a>
+					</div>
+					<div class="card point-data">
+						<div class="card-header" style="font-size: 0.7rem;font-weight: 550;">
+							重点关注数据
+						</div>
+						<div class="card-content">
+							<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+								<div class="row">
+									<div class="col-50">
+										<h1 class="lx-num">-</h1>
+										<p>近3天连续不在校</p>
+									</div>
+									<div class="col-50" style="border-left: 1px solid #e8eaec;">
+										<h1 class="lj-num">-</h1>
+										<p>近一周累计3天</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<span class="ctitle">风险走势图</span>
+							<div class="buttons-row">
+								<a href="#" class="button lines active" day="7">7天</a>
+								<a href="#" class="button lines" day="14">14天</a>
+								<a href="#" class="button lines" day="30">30天</a>
+							</div>
+						</div>
+						<div class="card-content">
+							<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+								<canvas id="seven-day-lines" style="width: 100%;"></canvas>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="card">
+						<div class="card-header">
+							<span class="ctitle">累计不在校Top 10</span>
+							<div class="buttons-row">
+								<a href="#" class="button tops active" day="15">15天</a>
+								<a href="#" class="button tops" day="30">30天</a>
+								<a href="#" class="button tops" day="60">60天</a>
+							</div>
+						</div>
+						<div class="card-content">
+							<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+								<canvas id="top-10-bar" style="width: 100%;"></canvas>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<span class="ctitle">风险班级分布图</span>
+							<div class="buttons-row">
+								<a href="#" class="button pies active" day="15">15天</a>
+								<a href="#" class="button pies" day="30">30天</a>
+								<a href="#" class="button pies" day="60">60天</a>
+							</div>
+						</div>
+						<div class="card-content">
+							<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+								<canvas id="class-month-pie" style="width: 100%;"></canvas>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../../../js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../../../js/plugs/jquery.cookie.js" charset="UTF-8"></script>
+		<script src="https://gw.alipayobjects.com/os/antv/assets/f2/3.4.2/f2-all.min.js"></script>
+		<script type="text/javascript" src="../../../js/lodash/lodash.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/common.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/controller/bzx/bzx.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/light7/js/light7.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/f2/safety/SevenLine.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/f2/safety/TopBar.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/f2/safety/ClassPie.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/controller/bzx/safe/safety.js" charset="UTF-8"></script>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.6" height="47.6" viewBox="0 0 47.6 47.6">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #dd4926;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke: #020202;
+        stroke-width: 2.8px;
+      }
+
+      .cls-4, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-7 {
+        fill: rgba(0,0,0,0.2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="椭圆_485" data-name="椭圆 485" class="cls-1" cx="22.4" cy="22.4" r="22.4" transform="translate(-1246.534 -2221.202)"/>
+    </clipPath>
+  </defs>
+  <g id="篮球" transform="translate(1247.934 2222.602)">
+    <circle id="椭圆_482" data-name="椭圆 482" class="cls-2" cx="22.4" cy="22.4" r="22.4" transform="translate(-1246.534 -2221.202)"/>
+    <g id="组_2080" data-name="组 2080">
+      <g id="组_2079" data-name="组 2079" class="cls-3">
+        <g id="组_2078" data-name="组 2078">
+          <circle id="椭圆_483" data-name="椭圆 483" class="cls-4" cx="22.4" cy="22.4" r="22.4" transform="translate(-1277.645 -2221.202)"/>
+          <circle id="椭圆_484" data-name="椭圆 484" class="cls-4" cx="22.4" cy="22.4" r="22.4" transform="translate(-1215.423 -2221.202)"/>
+        </g>
+      </g>
+    </g>
+    <path id="路径_2556" data-name="路径 2556" class="cls-5" d="M-1232.432-2219.615a22.34,22.34,0,0,1,8.3-1.587,22.4,22.4,0,0,1,22.4,22.4,22.4,22.4,0,0,1-22.4,22.4,22.4,22.4,0,0,1-22.4-22.4,22.333,22.333,0,0,1,1.849-8.926"/>
+    <path id="路径_2557" data-name="路径 2557" class="cls-5" d="M-1241.216-2213.293a22.5,22.5,0,0,1,3.878-3.606"/>
+    <line id="直线_1365" data-name="直线 1365" class="cls-6" y2="44.8" transform="translate(-1224.134 -2221.202)"/>
+    <line id="直线_1366" data-name="直线 1366" class="cls-6" x1="44.8" transform="translate(-1246.534 -2198.802)"/>
+    <path id="路径_2558" data-name="路径 2558" class="cls-7" d="M-1211.449-2217.262a22.293,22.293,0,0,1,3.94,12.685,22.4,22.4,0,0,1-22.4,22.4,22.294,22.294,0,0,1-12.685-3.94,22.374,22.374,0,0,0,18.46,9.715,22.4,22.4,0,0,0,22.4-22.4A22.372,22.372,0,0,0-1211.449-2217.262Z"/>
+  </g>
+</svg>

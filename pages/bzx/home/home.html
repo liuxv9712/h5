@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>疑似不在校</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<link rel="stylesheet" href="../../../js/light7/css/light7.min.css">
+		<link rel="stylesheet" href="../../../css/iconfont/iconfont.css" />
+		<link rel="stylesheet" href="../../../css/cdu.cust.css" />
+		<style>
+			ul{
+				margin-block-start:0em;margin-block-end: 0em;margin-inline-start: 0px;  margin-inline-end: 0px; padding-inline-start: 0px;
+				list-style: none;
+			}
+			.more img{
+				width: 100%;
+				border-radius: 6px;
+			}
+			/* .more li{
+				border-radius: 6px;
+				min-height: 5.5rem;
+				display: inline-block;
+				background-size: cover !important; 
+				width: 100%;
+				box-shadow: 0 1px 6px rgba(0,0,0,.2);
+				padding: 0.75rem;
+				color: #FF6600;
+				margin: 0.5rem 0;
+			}
+			.more li h4{
+				margin: 0.5rem 0;
+			}
+			.more li p.descs{
+				margin: 0;
+				color: #FFFFFF;
+				font-size: 0.65rem;
+			} */
+		</style>
+	</head>
+	<body>
+		<div class="page-group">
+			<div class="page">
+				<!-- 工具栏 -->
+				<nav class="bar bar-tab">
+					<a class="tab-item external active" href="home.html">
+						<span class="icon iconfont icon-shouye"></span>
+						<span class="tab-label">首页</span>
+					</a>
+					<a class="tab-item external" href="../safe/safety.html">
+						<span class="icon iconfont icon-paihangbang"></span>
+						<span class="tab-label">安全报告</span>
+					</a>
+					<a class="tab-item external" href="../notice/notices.html">
+						<span class="icon iconfont icon-pinglun"></span>
+						<span class="tab-label">风险处理</span>
+						<span class="badge remind" style="display: none;"></span>
+					</a>
+				</nav>
+
+				<!-- 你的html代码 -->
+				<div class="content" style="background: #FFFFFF;">
+					<img src="../../../img/bzx-home-bg.jpg" style="width: 100%;" />
+
+					<div style="margin-top: -30rem;">
+						
+						<div class="content-block warn-1-3" style="margin: 0;">
+							<div style="text-align: right;color: #E8E8E8;font-size: 0.6rem;">
+								数据更新至：<span class="sync-date"></span>
+							</div>
+							<div class="row">
+								<div class="col-50">
+									<div class="warn-item yfx" qtype="date" style="padding:1rem;height: 6rem;background: url(../../../img/bzx-home-banner-0.png);background-size: 100% 100%;">
+										<p class="wtitle">昨日疑似不在校</p>
+										<p class="desc" style="font-size: 1.25rem;"></p>
+									</div>
+								</div>
+								<div class="col-50">
+									<div class="warn-item lxst" qtype="lx" style="height: 2.75rem;background: url(../../../img/bzx-home-banner-1.png);background-size: 100% 100%;">
+										<p class="desc"></p>
+										<p class="wtitle">连续3天不在校</p>
+									</div>
+									<div class="warn-item ljst" qtype="lj" style="height: 2.75rem;margin-top: 0.5rem;background: url(../../../img/bzx-home-banner-2.png);background-size: 100% 100%;">
+										<p class="desc"></p>
+										<p class="wtitle">累计3天不在校</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- <div class="card shadom">
+							<div class="card-header">
+								<span>昨日预警</span>
+							</div>
+							<div class="card-content">
+								<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+									<ul class="statistics">
+										<li>
+											<p class="num yfx" style="color: #ff9900;">--</p>
+											<p class="text">有风险</p>
+										</li>
+										<li>
+											<p class="num zc" style="color: #19be6b;">--</p>
+											<p class="text">正常</p>
+										</li>
+										<li>
+											<p class="num lxst" style="color: #ed4014;">--</p>
+											<p class="text">连续3天</p>
+										</li>
+										<li>
+											<p class="num ljst" style="color: #2b85e4;">--</p>
+											<p class="text">累计3天</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div> -->
+
+
+						<div class="card shadom week-danger">
+							<div class="card-header">
+								<span>近一周风险</span>
+							</div>
+							<div class="card-content">
+								<div class="card-content-inner" style="padding: 0 0 0.75rem 0rem;">
+									<ul>
+										<li>
+											<canvas id="chart1" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<canvas id="chart2" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<canvas id="chart3" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="btn-sta-all" style="font-size: 0.85rem;color: #333333;font-weight: 550;">收起</a>
+										</li>
+									</ul>
+									
+									<ul class="sta-more open" style="margin-top: 0.75rem;">
+										<li>
+											<canvas id="chart4" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<canvas id="chart5" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<canvas id="chart6" width="70%" height="70%"></canvas>
+										</li>
+										<li>
+											<canvas id="chart7" width="70%" height="70%"></canvas>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="content-block-title" style="font-size: 0.8rem;color: #333333;font-weight: 550;margin: 1rem .75rem .5rem;">
+							更多
+						</div>
+						<div class="content-block">
+							<ul class="more">
+								<li>
+									<a class="external" href="../students/stus.html">
+										<img src="../../../img/bzx-home-banner-3.png" />
+									</a>
+								</li>
+
+								<li>
+									<img src="../../../img/bzx-home-banner-4.png" />
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- <div class="q-entry">
+						<div class="row">
+							<div class="col-50">
+								<a href="../students/stus.html" class="external q-item">
+									<div class="q-icon" style="background: rgba(219, 229, 248, 1);color: #B8CAED;">
+										<span class="iconfont icon-xuesheng"></span>
+									</div>
+									<div class="q-text">
+										<p class="q-title">学生管理</p>
+										<p class="q-tip">查看、管理学生</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-50">
+								<a href="javascript:void(0)" class="external q-item">
+									<div class="q-icon" style="background: rgba(235, 219, 248, 1);color: #D4B9EA;">
+										<span class="iconfont icon-pinglun"></span>
+									</div>
+									<div class="q-text">
+										<p class="q-title">消息提醒</p>
+										<p class="q-tip">设置消息提醒</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../../../js/jquery-3.5.0.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/plugs/jquery.cookie.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/light7/js/light7.min.js" charset="UTF-8"></script>
+		<script src="https://gw.alipayobjects.com/os/antv/assets/f2/3.4.2/f2.min.js"></script>
+		<script type="text/javascript" src="../../../js/f2/ProgressPie.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/common.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/controller/bzx/bzx.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="../../../js/controller/bzx/home/home.js" charset="UTF-8"></script>
+	</body>
+</html>

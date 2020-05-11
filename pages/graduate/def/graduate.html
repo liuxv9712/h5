@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+
+		<link rel="stylesheet" href="../../../js/swiper/css/swiper.min.css">
+		<link rel="stylesheet" href="../../../js/swiper/css/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/graduate/def/index.css" />
+		<style>
+			html{
+				font-size: 16px;
+			}
+			.swiper-container{
+				-webkit-overflow-scrolling: touch;
+			}
+			.swiper-slide{
+				background: no-repeat left top;
+				background-size: 100% 100%;
+			}
+			.content-block{
+				margin: 1.75rem;
+			}
+			.content-block h2{
+				font-size: 1.5rem;
+				color: #333333;
+			}
+			.graduate-content{
+				background-size: 100% 100%;
+				background-repeat:  no-repeat;
+				padding: 2.75rem 1.75rem 2.75rem 3rem;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="swiper-container background">
+			<div class="swiper-wrapper">
+				<section class="swiper-slide" style="background-image: url(https://images.pexels.com/photos/3222386/pexels-photo-3222386.jpeg?auto=comress&cs=tinysrgb&h=750&w=1260);">
+					<div class="content-block graduate-head">
+						<h2 class="items-title">南京诚勤大学</h2>
+					</div>
+					
+					<div class="content-block graduate-content" style="background-image: url(book.png);">
+						<p>你的生活方面，<br>洗澡花费了411元，<br>超越了32%的同学。<br>寝室用电281度，<br>电费充值花费1211元，<br>超越了32%的同学。</p>
+					</div>
+				</section>
+				
+				
+				
+				<section class="swiper-slide" style="background-image: url(https://images.pexels.com/photos/2773494/pexels-photo-2773494.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);">
+					<h2 class="items-title">南京诚勤大学</h2>
+					<div class="items-content" style="background: url(book.png) no-repeat; background-size: 100% 100%;">
+				
+						<p>你的生活方面，<br>洗澡花费了411元，<br>超越了32%的同学。<br>寝室用电281度，<br>电费充值花费1211元，<br>超越了32%的同学。</p>
+					</div>
+				</section>
+				
+				
+				<section class="swiper-slide" style="background-image: url(https://images.pexels.com/photos/2249055/pexels-photo-2249055.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);">
+					<h2 class="items-title">南京诚勤大学</h2>
+					<div class="items-content" style="background: url(book.png) no-repeat; background-size: 100% 100%;">
+				
+						<p>你的生活方面，<br>洗澡花费了411元，<br>超越了32%的同学。<br>寝室用电281度，<br>电费充值花费1211元，<br>超越了32%的同学。</p>
+					</div>
+				</section>
+			</div>
+			
+			
+			<div class="swiper-pagination"></div>
+		</div>
+
+
+		<!-- <div class="page-group">
+			<div class="page">
+				<div class="content" style="background: #FFFFFF;">
+					<div class="content-block-title" style="text-align: center;">
+						<img src="http://cdn.mengdouwang.cn/graduate/schema/title.png" />
+					</div>
+
+					<div class="content-block">
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+		<!-- <div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+			</div>
+			<div class="swiper-pagination"></div>
+
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-scrollbar"></div>
+		</div> -->
+
+
+
+		<script type="text/javascript" src="../../../js/jquery-2.1.4.js"></script>
+		<script type="text/javascript" src="../../../js/swiper/js/swiper.min.js"></script>
+		<script type="text/javascript" src="../../../js/swiper/js/swiper.animate.min.js"></script>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				// 滑动方向 horizontal水平
+				direction: 'vertical',
+				// 切换 默认slide滑动，fade淡入，cube盒子，flip翻转
+				effect: 'slide',
+				
+				speed:2000,
+				// 分页器
+				pagination: '.swiper-pagination',
+				// 点击分页器可切换
+				paginationClickable: true,
+				// 能使用鼠标滚轮控制slide滑动
+				mousewheelControl: true,
+				// 一屏中可显示的数量,默认1
+				slidesPerview: 1,
+				// 下滑按钮
+				nextButton: '.swiper-button-next',
+				//Swiper Animate动画初始化
+				onInit: function(swiper) {
+					//隐藏动画元素
+					swiperAnimateCache(swiper);
+					// 初始化完成开始动画
+					swiperAnimate(swiper);
+				},
+
+				onSlideChangeEnd: function(swiper) {
+					//每个slide切换结束时也运行当前slide动画
+					swiperAnimate(swiper);
+				}
+			});
+			
+			var contentHeight = parseInt($('body').outerHeight(true)) - $('.graduate-head').height() - 28 * 4 - 88 + 'px';
+			$('.graduate-content').css('height',contentHeight);
+		</script>
+	</body>
+</html>

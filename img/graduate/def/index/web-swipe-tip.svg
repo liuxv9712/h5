@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.542" height="34.571" viewBox="0 0 35.542 34.571">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4510dc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4.2px;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <g id="下滑ICON" transform="translate(-172.196 -623.806)">
+    <path id="路径_585" data-name="路径 585" class="cls-1" d="M-708.41,684.334l-14.8,14.8-14.8-14.8" transform="translate(913.178 -42.857)"/>
+    <path id="路径_586" data-name="路径 586" class="cls-1" d="M-708.41,669.634l-14.8,14.8-14.8-14.8" transform="translate(913.178 -42.857)"/>
+  </g>
+</svg>

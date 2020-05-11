@@ -1,0 +1,9 @@
+.whiter-container{
+	margin-top: 0;
+}
+.whiter .item-subtitle, .whiter .item-after{
+	color: #999999;
+}
+.whiter .item-after{
+	font-size: 0.6rem;
+}
